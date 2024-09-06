@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.message {
+  background-color: #282c34;
+  color: antiquewhite;
+  border: 3px solid darkcyan;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  width: 450px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+  gap: 20px;
+}
+
+#root {
+  background-color: rgb(244, 243, 242);
+  height: 100vh;
+  display: flex;
+  padding-top: 50px;
+  flex-direction: column;
+  align-items: center;
+}
