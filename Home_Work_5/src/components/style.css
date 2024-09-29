@@ -1,0 +1,35 @@
+.light {
+  background-color: rgb(255, 255, 255);
+  color: black;
+
+}
+
+.dark {
+  background-color: black;
+  color: antiquewhite;
+
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  border: 5px solid grey;
+}
+
+footer {
+  padding: 1px;
+}
+
+form {
+  background-color: #6561615e;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.backButton { 
+  height: 30px; 
+  background: red;
+}
